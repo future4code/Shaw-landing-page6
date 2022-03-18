@@ -6,33 +6,3 @@
     font: inherit;
     vertical-align: baseline;
 }
-
-
-#paiTodos{
-    background-color: blueviolet;
-   height: 100%;
-   margin: 10px
-   
-
-}
-
-
-.painel1{
-    background-color: aqua;
-    height: 35vh;
-}
-
-.painel2{
-    background-color: chocolate;
-    height: 35vh;
-}
-
-.painel3{
-    background-color: darkred;
-    height: 35vh;
-}
-
-.painel4{
-    background-color: darkgreen;
-    height: 35vh;
-}

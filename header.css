@@ -1,0 +1,34 @@
+*{
+  text-decoration: none;
+}
+
+/* começo header  */
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FCD18D;
+  height: 6.25rem;
+  padding: 0 1.875rem;
+}
+
+.img-logo{
+  width: 4.375rem;
+  box-shadow: 4px 4px 10px -1px #000000;
+}
+
+.nav-button{
+  background-color: #FCD18D;
+  border-radius: 10px;
+  padding: 0.313rem 0.625rem;
+  margin: 0 0.313;
+  font-weight: bold;
+}
+
+.nav-button:hover{
+  background-color: #FCEAD5;
+}
+
+/* fim header  */
+
