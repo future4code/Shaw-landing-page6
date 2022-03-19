@@ -107,12 +107,12 @@
 
 .footer {
     display: flex;
-    position:fixed;
+    /* position:fixed; */
 	bottom:0;
 	width:98vw;
     height: 10vh;
     background-color: gray;
-    padding: 1em 1em 0 1em;
+    padding: 1em;
     align-items: center;
     justify-content: space-between;
 }
