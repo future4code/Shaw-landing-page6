@@ -105,4 +105,25 @@
     
 }
 
+.footer {
+    display: flex;
+    position:fixed;
+	bottom:0;
+	width:98vw;
+    height: 10vh;
+    background-color: gray;
+    padding: 1em 1em 0 1em;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoredes{
+    width: 2.375rem;
+}
