@@ -20,7 +20,7 @@
 
 .card-time{
   display: flex;
-  width: 100vw;
+  width: 100%;
   padding: 0.625rem 3.125rem;
   background-color: #FCEAD5;
 }
