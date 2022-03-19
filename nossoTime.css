@@ -1,0 +1,56 @@
+/* começo nosso time  */
+
+.nosso-time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.125rem;
+  padding-bottom: 0;
+}
+
+.nosso-time h2{
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+  padding-bottom:  3rem;
+  color: #FC984D;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-time{
+  display: flex;
+  width: 100vw;
+  padding: 0.625rem 3.125rem;
+  background-color: #FCEAD5;
+}
+
+.pessoa-time{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pessoa-time p {
+  padding: 0 0.5rem;
+}
+
+.card-position{
+  justify-content: flex-end;
+  background-color: #FCD18D;
+}
+
+.colaborador{
+  font-size: 25px;
+}
+
+.cargo{
+  font-size: 15px;
+}
+
+.img-time{
+  width: 8.75rem;
+}
+
+/* fim nosso time  */
