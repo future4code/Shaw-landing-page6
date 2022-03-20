@@ -42,11 +42,11 @@
 }
 
 .colaborador{
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .cargo{
-  font-size: 15px;
+  font-size: 1.125rem;
 }
 
 .img-time{
@@ -54,3 +54,22 @@
 }
 
 /* fim nosso time  */
+
+/* responsivo  */
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .card-time{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-time{
+    order: -1;
+    padding-bottom: 1.25rem;
+  }
+
+  .pessoa-time{
+    padding-bottom: 1.25rem;
+  }
+}
+  

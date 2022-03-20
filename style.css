@@ -1,170 +1,207 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-
-
-#paiTodos{
-   
-   /* height: 100vh; */
-   width: 100vw;
-   display: flex;
-   flex-direction: column;
-   
-   
-
+#paiTodos {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
-#meio{display: flex;
-    flex-direction: column;
-    
-    
-    
-
-
+#meio {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.painel1{
-   
-    justify-content: space-between;
-    height: 35vh;
-    
-    
-}
-#banner1{
-    /* position: absolute; */
-    
-    width: 100vw;
-    height: 35vh;
-    
-    
-
-
+.painel1 {
+  justify-content: space-between;
+  height: 35vh;
 }
 
-
-.texto1{
-    position: absolute;
-    font-size: 20px;
-    left: 50px;
-    top: 17vh;
-    text-align: center;
-    color: white
-    
-
+#banner1 {
+  width: 100vw;
+  height: 35vh;
 }
 
-
-
-.painel2{
-    display: flex;
-    background-color: #726e6c;
-    height: 35vh;
-    justify-content: space-between;
+.texto1 {
+  position: absolute;
+  font-size: 1.25rem;
+  left: 3.125rem;
+  top: 17vh;
+  text-align: center;
+  color: white;
 }
 
-#textoPainel2{
-    font-size: 18px;    
-    text-align: center;
-    color: white;
-    margin: 60px;
-    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    font-weight: bolder;
-    
+.painel2 {
+  display: flex;
+  background-color: #726e6c;
+  justify-content: space-between;
+
+  padding: 1.25rem;
 }
 
-
-
-.painel3{
-    display: flex;
-    background-color: #FCD18D;
-    height: 100%;
-    justify-content: space-evenly
+.span-img img {
+  padding-left: 5rem;
 }
 
-.bannerPainel3{
-    display: flex;
-    width: 50vw;
-    height: 40vh;
+#textoPainel2 {
+  font-size: 1.125rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  font-weight: bolder;
+
+  display: flex;
+  padding: 1.25rem;
 }
 
-#textoPainel3{
-   display: flex;
-  
-    margin: 80px;
-    font-size: 20px;
-    text-align: center;
+.painel2 img {
+  width: 80%;
 }
 
-/* referente ao painel que não estava sendo usado */
-/* .painel4{
-    display: flex;
-    background-color: white;
-    /* flex-grow: 1; */
-    
-
+.div-painel2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3.125rem;
+  padding-right: 12rem;
 }
 
-#bannerPainel4 img{
-    width: 100vw;
-    height: 50vh;
-    
-} */
-
-
-.quemsomos{
-    display: flex;
-    background-color: #FCEAD5;
-    height: 100%;
-    width: 100%;
-    justify-content: space-evenly;
+.painel3 {
+  display: flex;
+  background-color: #fcd18d;
+  height: 100%;
+  justify-content: space-evenly;
 }
 
-.escritorio{
-    width: 55vw;
+.bannerPainel3 {
+  display: flex;
+  width: 50vw;
+  height: 40vh;
 }
 
-#textoqs{
-    margin: 1em;
-    font-size: 30px;
-    text-align: center;    
+#textoPainel3 {
+  display: flex;
+  padding: 5rem;
+  font-size: 1.25rem;
+  text-align: center;
+  align-items: center;
 }
 
+.quemsomos {
+  display: flex;
+  background-color: #fcead5;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.escritorio {
+  width: 55vw;
+}
+
+#textoqs {
+  margin: 1em;
+  font-size: 1.875rem;
+  text-align: center;
+}
 
 .footer {
-    display: flex;
-    /* position:fixed; */
-	bottom:0;
-	width:100%;
-    height: 10vh;
-    background-color: gray;
-    padding: 1em 0;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: gray;
+  padding: 1em 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#redes{
-    display: flex;
+#redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1.875rem;
+}
+
+.logoredes {
+  width: 2.375rem;
+}
+
+.img-footer {
+  padding-left: 1.875rem;
+  box-shadow: none;
+}
+
+/* reponsividade  */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+    /* main  */
+    
+    .painel2 {
     flex-direction: column;
-    align-items: center;
+  }
+
+  .span-img {
+    display: flex;
     justify-content: center;
-    padding-right: 30px;
+  }
 
-}
+  .span-img img {
+    width: 100%;
+    padding-left: 0;
+  }
 
-.logoredes{
-    width: 2.375rem;
-}
+  .div-painel2 {
+    flex-direction: row;
+    padding: 1rem;
+  }
 
-.img-footer{
-    padding-left: 30px;
-    box-shadow: none;
+  .painel3 {
+    flex-direction: column;
+  }
+
+  .img-3 img {
+    width: 100%;
+  }
+
+  #textoPainel3{
+      padding: 3rem;
+  }
+
+  /* quem somos */
+
+  .quemsomos{
+      flex-direction: column;
+  }
+
+  .quemsomos span img{
+      width: 100%;
+  }
+
+
+  /* footer  */
+  
+  .footer{
+      flex-direction: column;
+      height: 100%;
+      padding: 1.25rem 0 0 0;
+  }
+
+  #redes{
+      padding: 1.25rem 0;
+  }
+
+  .img-footer{
+      padding: 0 0 1.25rem 0;
+  }
 }

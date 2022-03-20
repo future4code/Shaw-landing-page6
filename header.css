@@ -32,3 +32,15 @@
 
 /* fim header  */
 
+/* responsivo  */
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #header{
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  #header nav{
+    padding-top: 10px;
+  }
+}
