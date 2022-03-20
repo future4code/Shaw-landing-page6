@@ -81,6 +81,10 @@
     
 }
 
+.painel2 img{
+    width: 100%;
+}
+
 
 
 .painel3{
@@ -110,14 +114,14 @@
     background-color: white;
     /* flex-grow: 1; */
     
-
+/* 
 }
 
 #bannerPainel4 img{
     width: 100vw;
     height: 50vh;
     
-} */
+} */ */
 
 
 .quemsomos{
