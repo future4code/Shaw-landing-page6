@@ -40,10 +40,8 @@
 .painel2 {
   display: flex;
   background-color: #726e6c;
-  height: 35vh;
   justify-content: space-between;
 
-  height: 100%;
   padding: 1.25rem;
 }
 
@@ -159,6 +157,7 @@
 
   .span-img img {
     width: 100%;
+    padding-left: 0;
   }
 
   .div-painel2 {
