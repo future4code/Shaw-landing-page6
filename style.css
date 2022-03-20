@@ -98,7 +98,8 @@
     text-align: center;
 }
 
-.painel4{
+/* referente ao painel que não estava sendo usado */
+/* .painel4{
     display: flex;
     background-color: white;
     flex-grow: 1;
@@ -109,7 +110,27 @@
 #bannerPainel4 img{
     width: 100vw;
     
+} */
+
+
+.quemsomos{
+    display: flex;
+    background-color: #FCEAD5;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
 }
+
+.escritorio{
+    width: 55vw;
+}
+
+#textoqs{
+    margin: 1em;
+    font-size: 30px;
+    text-align: center;    
+}
+
 
 .footer {
     display: flex;
