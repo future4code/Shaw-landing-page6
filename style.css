@@ -30,7 +30,7 @@
 
 .texto1 {
   position: absolute;
-  font-size: 20px;
+  font-size: 1.25rem;
   left: 3.125rem;
   top: 17vh;
   text-align: center;
@@ -44,15 +44,15 @@
   justify-content: space-between;
 
   height: 100%;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .span-img img {
-  padding-left: 80px;
+  padding-left: 5rem;
 }
 
 #textoPainel2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: center;
   color: white;
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
@@ -92,7 +92,7 @@
 #textoPainel3 {
   display: flex;
   padding: 5rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   align-items: center;
 }
@@ -111,7 +111,7 @@
 
 #textoqs {
   margin: 1em;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
 }
 
@@ -131,7 +131,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-right: 30px;
+  padding-right: 1.875rem;
 }
 
 .logoredes {
@@ -139,7 +139,7 @@
 }
 
 .img-footer {
-  padding-left: 30px;
+  padding-left: 1.875rem;
   box-shadow: none;
 }
 
@@ -177,5 +177,14 @@
   #textoPainel3{
       padding: 3rem;
   }
-  
+
+  /* quem somos */
+
+  .quemsomos{
+      flex-direction: column;
+  }
+
+  .quemsomos span img{
+      width: 100%;
+  }
 }
