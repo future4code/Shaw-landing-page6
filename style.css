@@ -146,6 +146,7 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   
     /* main  */
+    
     .painel2 {
     flex-direction: column;
   }
@@ -185,5 +186,22 @@
 
   .quemsomos span img{
       width: 100%;
+  }
+
+
+  /* footer  */
+  
+  .footer{
+      flex-direction: column;
+      height: 100%;
+      padding: 1.25rem 0 0 0;
+  }
+
+  #redes{
+      padding: 1.25rem 0;
+  }
+
+  .img-footer{
+      padding: 0 0 1.25rem 0;
   }
 }
